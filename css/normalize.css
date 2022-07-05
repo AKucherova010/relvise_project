@@ -32,6 +32,23 @@ main {
   display: block;
 }
 
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+  min-width: 320px;
+}
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.

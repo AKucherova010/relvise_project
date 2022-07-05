@@ -3,6 +3,35 @@
 
 :root {
     --white: #FFFFFF;
-    --black: #121212;
+    --black: #252B42;
+    --grey: #737373;
+    --orange: #FF7B47;
+    --green: #0D5C63;
+    --light-grey: #F3F3F3;
+    --navy: #17213C;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--grey);
+    line-height: 1;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.4;
 
 }
+.header {}
+.page {
+    flex: 1 1 auto;
+}
+.footer {}
